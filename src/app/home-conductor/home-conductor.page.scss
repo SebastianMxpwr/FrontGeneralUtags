@@ -1,0 +1,32 @@
+agm-map{
+    height: 300px;
+}
+
+ion-item{
+    --color: black;
+    font-size: 18px;
+    --background: white;
+    margin-top: 5px;
+
+}
+
+.boton{
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+    --background: rgb(75, 101, 148)
+}
+
+#destino{
+    margin: auto;
+    text-align: center;
+    color: rgb(28, 27, 30);
+    width: 90%;
+
+}
+#salida{
+    margin: auto;
+    text-align: center;
+    color: rgb(28, 27, 30);
+    width: 90%;
+}

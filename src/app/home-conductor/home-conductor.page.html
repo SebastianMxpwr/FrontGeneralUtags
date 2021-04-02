@@ -1,0 +1,56 @@
+<ion-content>
+  <div class="img">
+    <img>
+  </div>
+  <div id="datos_del_usuario">
+    <div>
+    </div>
+  </div>
+</ion-content>
+<ion-content>
+  <div id="mapa">
+    <agm-map  
+      *ngIf="currentCenter"
+      [latitude]=currentCenter.lat 
+      [longitude]=currentCenter.long 
+      [zoom]=defaultZoom>
+    <agm-marker 
+      [latitude]=currentCenter.lat 
+      [longitude]=currentCenter.long>
+    </agm-marker>
+    <agm-polyline [strokeColor]="'red'" *ngIf="coordinates">
+    <agm-polyline-point *ngFor="let coords of coordinates"
+      [latitude]="coords.lat" 
+      [longitude]="coords.long">
+    </agm-polyline-point>
+    </agm-polyline>
+    </agm-map>
+    </div>
+</ion-content>
+
+<ion-content>
+  <form [formGroup]="DestinoF" (ngSubmit)="getCurrentPosition()">
+  <div id="destino">
+    <ion-item>
+      <ion-label position="floating">lato</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">lono</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </div>
+  <div id="salida">
+    <ion-item>
+      <ion-label position="floating">Latd</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Lond</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  </div>
+  <ion-button class="boton" type="submit">Recogida</ion-button>
+
+</form>
+</ion-content>

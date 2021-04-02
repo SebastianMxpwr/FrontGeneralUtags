@@ -1,0 +1,52 @@
+#form-register{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#header{
+    margin: auto;
+    text-align: center;
+    color: rgb(28, 27, 30);
+}
+
+#formulario{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+ion-item{
+    --color: black;
+    font-size: 18px;
+    --background: white;
+    margin-top: 5px;
+
+}
+
+#regis{
+    width: 100%;
+    --background: rgb(75, 101, 148);
+}
+
+#botones{
+    text-align: center;
+}
+
+p{
+    margin-bottom: -1px;
+    font-size: 16px;
+}
+
+ion-item-divider{
+    width: 100%;
+    --inner-padding-top: 1px;
+    --color: rgb(65, 64, 64);
+}
+
+#red{
+    width: 50%;
+    --background: rgb(212, 82, 82);
+}
+
+#blue{
+    width: 50%;
+    --background: rgb(82, 127, 212);
+}

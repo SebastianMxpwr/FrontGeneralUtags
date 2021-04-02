@@ -1,0 +1,62 @@
+agm-map{
+    height: 300px;
+}
+
+ion-item{
+    --color: black;
+    font-size: 18px;
+    --background: white;
+    margin-top: 5px;
+
+}
+
+.boton{
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+    --background: rgb(75, 101, 148);
+}
+
+#destino{
+    margin: auto;
+    text-align: center;
+    color: rgb(28, 27, 30);
+    width: 90%;
+
+}
+#salida{
+    margin: auto;
+    text-align: center;
+    color: rgb(28, 27, 30);
+    width: 90%;
+}
+h1{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+table{
+    width:100%;
+    table-layout: fixed;
+    margin-bottom: 15px;
+}
+.tbl-header{
+    background-color: rgba(199, 213, 216, 0);
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 26%;
+    
+}
+th{
+    padding: 10px 7.5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    border: rgb(0, 0, 0) 1px solid; 
+}
